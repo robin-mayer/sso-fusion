@@ -1,10 +1,10 @@
-package com.robinmayer.soofusion
+package com.robinmayer.ssofusion
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class SsoFusionApplicationTests {
+class SSOFusionApplicationTests {
 
 	@Test
 	fun contextLoads() {
