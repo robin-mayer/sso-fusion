@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.robin-mayer</groupId>
-	<artifactId>soo-fusion</artifactId>
+	<artifactId>sso-fusion</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>SSO Fusion</name>
 	<description>Open Source Single Sign On Platform</description>
