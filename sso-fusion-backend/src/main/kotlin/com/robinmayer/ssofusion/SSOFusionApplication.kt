@@ -1,11 +1,11 @@
-package com.robinmayer.ssofusionbackend
+package com.robinmayer.ssofusion
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class SsoFusionBackendApplication
+class SSOFusionApplication
 
 fun main(args: Array<String>) {
-	runApplication<SsoFusionBackendApplication>(*args)
+	runApplication<SSOFusionApplication>(*args)
 }
