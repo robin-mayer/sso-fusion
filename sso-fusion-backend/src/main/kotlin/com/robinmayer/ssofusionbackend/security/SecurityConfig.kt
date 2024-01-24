@@ -29,7 +29,6 @@ class SecurityConfig(
 					.requestMatchers(HttpMethod.POST,"/account/register").permitAll()
 					.requestMatchers(HttpMethod.POST,"/account/login").permitAll()
 					.requestMatchers(HttpMethod.GET,"/account/test").hasAnyRole("DEVELOPER", "ADMIN")
-					//.requestMatchers(HttpMethod.GET,"/account/test").permitAll()
 					.anyRequest().authenticated()
 			}
 			.csrf{ csrf -> csrf.disable()}
